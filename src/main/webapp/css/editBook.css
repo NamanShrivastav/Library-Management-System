@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+/* Navigation */
+body > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2471a3;
+    font-weight: 600;
+    margin: 5px 8px;
+    transition: 0.3s;
+}
+
+body > a:hover {
+    color: #154360;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0 30px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* Edit Form */
+form {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 35px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Input Fields */
+form input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 12px 14px;
+    margin: 10px 0 20px;
+    border: 1px solid #d5dce5;
+    border-radius: 7px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input[type="text"]:focus {
+    border-color: #2471a3;
+    box-shadow: 0 0 5px rgba(36, 113, 163, 0.2);
+}
+
+/* Update Button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    background: #2471a3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #154360;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        padding: 22px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
